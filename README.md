@@ -6,12 +6,12 @@ A Tokyo Night theme for the <a href="https://github.com/sddm/sddm">SDDM Login Ma
 
 <h2 align=center>Preview</h2>
 <center>
-<img src="./Previews/preview.png" alt="preview-1">
+<img src="./Previews/1.png" alt="preview-1">
 <details>
-<summary>More Previews</summary>
-<img src="./Previews/preview-shacks.png" alt="preview-2">
-<img src="./Previews/preview-tokyo-city.png" alt="preview-4">
-<img src="./Previews/preview-path.png" alt="preview-3">
+<summary align=center>More Previews</summary>
+<img src="./Previews/2.png" alt="preview-2">
+<img src="./Previews/3.png" alt="preview-4">
+<img src="./Previews/4.png" alt="preview-3">
 </details>
 </center>
 
