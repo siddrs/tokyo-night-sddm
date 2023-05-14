@@ -16,7 +16,7 @@ A Tokyo Night theme for the <a href="https://github.com/sddm/sddm">SDDM Login Ma
 </center>
 
 ## Install
-
+### From sources
 > _Assumes that you've installed and configured SDDM correctly_ (if not [read more](https://wiki.archlinux.org/title/SDDM))
 
 1. Open terminal, and clone the repository with:
@@ -31,9 +31,18 @@ A Tokyo Night theme for the <a href="https://github.com/sddm/sddm">SDDM Login Ma
    sudo mv ~/tokyo-night-sddm /usr/share/sddm/themes/
    ```
 
-### Common Step
+### Arch Linux
+This theme is available on the [AUR](https://aur.archlinux.org/packages/sddm-theme-tokyo-night), you can install it with `makepkg` or using an AUR helper.
 
-Edit the `/etc/sddm.conf` (with any text editor with **raised** privileges, so that it looks like this:
+```sh
+git clone https://aur.archlinux.org/sddm-theme-tokyo-night.git
+cd sddm-theme-tokyo-night
+makepkg -Ccsi
+```
+
+## Configure
+
+Edit the `/etc/sddm.conf` (with any text editor with **raised** privileges), so that it looks like this:
 
 ```sh
 sudo nano /etc/sddm.conf  # use any text editor with raised privileges
@@ -42,7 +51,7 @@ sudo nano /etc/sddm.conf  # use any text editor with raised privileges
 Current=tokyo-night-sddm
    ```
 
-## Language and time format
+### Language and time format
 
 - You can also change the time format.
 - To change the default wallpaper put desired image in the `tokyo-night-sddm/Backgrounds/` folder and add the name of the image followed by its extension (`.jpg` or `.png`) in `theme.conf` file.
@@ -50,7 +59,8 @@ Current=tokyo-night-sddm
 (blur, form position, etc).
 ## Credits
 
-Based on the theme [`Sugar Dark for SDDM`](https://github.com/MarianArlt/sddm-sugar-dark) by **MarianArlt**.
+- Based on the theme [`Sugar Dark for SDDM`](https://github.com/MarianArlt/sddm-sugar-dark) by [**MarianArlt**](https://github.com/MarianArlt).
+- AUR Package by [**julian-poidevin**](https://github.com/julian-poidevin)
 
 ## License
 
