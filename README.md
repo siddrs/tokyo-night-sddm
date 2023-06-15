@@ -19,6 +19,9 @@ A Tokyo Night theme for the <a href="https://github.com/sddm/sddm">SDDM Login Ma
 ### From sources
 > _Assumes that you've installed and configured SDDM correctly_ (if not [read more](https://wiki.archlinux.org/title/SDDM))
 
+>  Please make sure you have the following dependencies installed:
+>  `qt5-quickcontrols2`, `qt5-graphicaleffects`, `qt5-svg` 
+
 1. Open terminal, and clone the repository with:
 
    ```sh
